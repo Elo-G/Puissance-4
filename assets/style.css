@@ -1,0 +1,158 @@
+
+/*----------- FONT------------------------------------------------------------*/
+@font-face {
+	font-family: 'street';
+	src: url('./font/FEASFBRG.TTF'); 
+}
+
+/*---------- BODY -----------------------------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  background-image: url(./images/background-streetfighters.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+header {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.colorJetonJ{
+  background-color: yellow;
+}
+
+.colorJetonR{
+  background-color: red;
+}
+
+/*--------- PLATEAU DE JEU  ---------------------------------------------*/
+#plateau {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: solid 3px;
+  background-color: blue;
+  margin-bottom: 50px;
+  border: 3px solid white ;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff,               /*Je crée un shadow effet néon*/
+              0 0 16px #c6e2ff, inset 0 0 16px #c6e2ff,
+              0 0 32px #c6e2ff, inset 0 0 32px #c6e2ff;
+}
+
+.cases {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px; 
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid white;
+  background-color:white;
+  text-align: center;
+  box-shadow: 0 0 2px #fff, inset 0 0 2px #fff,               /*Je crée un shadow effet néon*/
+              0 0 4px #c6e2ff, inset 0 0 4px #c6e2ff,
+              0 0 8px #c6e2ff, inset 0 0 8px #c6e2ff;
+}
+
+/*on choisie l'images des jetons qui corespond aux joueurs et on lui donne la taille correspondant a la cases*/
+.cases img{
+  width: 50px;
+}
+
+/*------------  MAIN (generalités)  ----------------------------------------*/
+main{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+/*------------  MAIN => ASIDE  ----------------------------------------*/
+.blockPlayer{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+}
+
+
+.score{
+  font-size: 2.5rem;
+  font-family: 'street';
+  color:orange;
+  text-shadow: 5px 5px 2px black;
+ 
+}
+
+#ryuGif{
+  width: 550px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#ryuGif img{
+  margin-top: 78px;
+  width: 125px;
+}
+
+#chunliGif{
+  width: 550px;
+  height: 300px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+
+#chunliGif img{
+  width: 135px;
+}
+
+/*------------  MAIN => WINNER ----------------------------------------*/
+#YouWin{
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-family: 'street';
+  color:orange;
+  text-shadow: 5px 5px 2px black;
+}
+
+/*-------------BOUTON REPLAY---------------------------------------------*/
+#replay{
+  display: flex;  
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#div-btn {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#button{
+  display: flex;  
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+  font-size: 40px;
+  font-family: 'street';
+  color:black;
+  border: 2px solid black;
+  background: linear-gradient(red, yellow);
+  box-shadow: 2px 2px 3px black;
+}
+
+#button p{
+  margin: 0;
+  margin-top: 7px;
+}

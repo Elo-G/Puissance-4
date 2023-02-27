@@ -1,0 +1,211 @@
+
+/*----------------------------------------MAX-WIDTH 768px iPad Mini--------------------------------------------*/
+@media(max-width: 768px){
+  body {
+    background-image: url(./images/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #streetLogo {
+    margin: 0;
+    width: 500px;
+  }
+
+  #plateau {
+    margin-top: 220px;
+    width: 300px;
+    height: 320px;
+  }
+  
+  .cases {
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-bottom: 8px; 
+    width: 30px;
+    height: 30px;
+  }
+
+  .cases img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #button {
+    margin-top: 15px;
+    width: 90px;
+    height: 50px;
+  }
+
+  #button p{
+    margin: 0;
+    font-size: 23px;
+    margin-top: 10px;
+  }
+
+  /*------------  MAIN => WINNER -------------*/
+  #YouWin {
+    font-size: 2rem;
+  }
+
+  .blockPlayer {
+    margin-top: 240px;
+    width:60px;
+  }
+
+  #scorePlayerOne {
+    font-size: 1.8rem;
+  }
+
+  #scorePlayerTwo {
+    font-size: 1.8rem;
+  }
+
+  #ryuGif {
+    width: 120px;
+  }
+
+  #chunliGif {
+    width: 120px;
+  }
+    
+  #ryuGif img {
+    margin-top: 5px;
+    width: 42px;
+  }
+ 
+  #chunliGif img {
+    margin-top: 5px;
+    width: 42px;
+  }
+}
+
+
+/*-------------------------------------MAX-WIDTH 414px iPhone6/7/8 Plus----------------------------------------*/
+@media(max-width: 414px){
+  body {
+    background-image: url(./images/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed ;
+    height: 736px;
+  }
+
+  #streetLogo {
+    margin: 0;
+    width: 380px;
+  }
+
+  main {
+    height: 440px;
+  }
+
+  #plateau {
+    margin-top: 160px;
+    width: 220px;
+    height: 240px;
+  }
+  
+  .cases {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px; 
+    width: 20px;
+    height: 20px;
+  }
+
+  .cases img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 50px;
+  }
+
+  #button p{
+    margin: 0;
+    font-size: 23px;
+    margin-top: 10px;
+  }
+
+  /*------------  MAIN => WINNER -------------*/
+  #YouWin {
+    font-size: 1.2rem;
+  }
+
+  .blockPlayer {
+    margin-top: 240px;
+    width:85px;
+  }
+
+  #scorePlayerOne {
+    font-size: 0.8rem;
+  }
+
+  #scorePlayerTwo {
+    font-size: 0.8rem;
+  }
+
+  #ryuGif {
+    width: 50px;
+  }
+
+  #chunliGif {
+    width: 50px;
+  }
+    
+  #ryuGif img {
+    margin-top: 5px;
+    width: 42px;
+  }
+ 
+  #chunliGif img {
+    margin-top: 5px;
+    width: 42px;
+  }
+}
+
+/*-------------------------------------MAX-WIDTH 375px iPhone6/7/8 --------------------------------------------*/
+@media(max-width: 375px){
+  body {
+    height: 672px;
+  }
+  
+  #button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 50px;
+  }
+
+  #button p{
+    margin: 0;
+    font-size: 23px;
+    margin-top: 10px;
+  }
+
+  /*------------  MAIN => WINNER -------------*/
+  #ryuGif {
+    margin-top: 33px;
+    width: 50px;
+  }
+
+  #chunliGif {
+    margin-top: -10;
+    width: 50px;
+  }
+    
+  #ryuGif img {
+    margin-top: 5px;
+    width: 43px;
+  }
+ 
+  #chunliGif img {
+    margin-top: 5px;
+    width: 42px;
+  }
+}
